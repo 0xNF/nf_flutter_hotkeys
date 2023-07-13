@@ -1,6 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
-import 'package:nf_hotkeys/src/ihotkey_set.dart';
+import 'package:nf_flutter_hotkeys/src/ihotkey_set.dart';
 
 class TabHotkeys extends IHotkeySet {
   final SingleActivator? closeTab;

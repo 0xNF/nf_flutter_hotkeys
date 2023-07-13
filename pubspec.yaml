@@ -1,4 +1,4 @@
-name: nf_hotkeys
+name: nf_flutter_hotkeys
 description: A set of convenience implenentations of hotkeys for flutter apps, based on [keymap] and [flutter_undo]
 version: 0.0.1
 homepage: https://github.com/0xnf/nf_flutter_hotkeys

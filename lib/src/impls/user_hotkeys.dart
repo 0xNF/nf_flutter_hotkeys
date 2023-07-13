@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_undo/flutter_undo.dart';
 import 'package:keymap/keymap.dart';
-import 'package:nf_hotkeys/src/impls/tab_hotkeys.dart';
+import 'package:nf_flutter_hotkeys/src/impls/tab_hotkeys.dart';
 
 class UserHotkeys {
   TabHotkeys tabHotkeys = TabHotkeys.webBrowser();
