@@ -40,8 +40,10 @@ class TabHotkeys extends IHotkeySet {
       closeTab: SingleActivator(LogicalKeyboardKey.keyW, control: true),
       newTab: SingleActivator(LogicalKeyboardKey.keyT, control: true),
       activateNextTab: SingleActivator(LogicalKeyboardKey.tab, control: true),
-      activatePreviousTab: SingleActivator(LogicalKeyboardKey.tab, control: true, shift: true),
-      activateTabFirst: SingleActivator(LogicalKeyboardKey.digit1, control: true),
+      activatePreviousTab:
+          SingleActivator(LogicalKeyboardKey.tab, control: true, shift: true),
+      activateTabFirst:
+          SingleActivator(LogicalKeyboardKey.digit1, control: true),
       activateTab2: SingleActivator(LogicalKeyboardKey.digit2, control: true),
       activateTab3: SingleActivator(LogicalKeyboardKey.digit3, control: true),
       activateTab4: SingleActivator(LogicalKeyboardKey.digit4, control: true),
@@ -50,7 +52,8 @@ class TabHotkeys extends IHotkeySet {
       activateTab7: SingleActivator(LogicalKeyboardKey.digit7, control: true),
       activateTab8: SingleActivator(LogicalKeyboardKey.digit8, control: true),
       activateTab9: SingleActivator(LogicalKeyboardKey.digit9, control: true),
-      activateTabLast: SingleActivator(LogicalKeyboardKey.digit0, control: true),
+      activateTabLast:
+          SingleActivator(LogicalKeyboardKey.digit0, control: true),
     );
   }
 }

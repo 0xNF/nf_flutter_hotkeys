@@ -4,5 +4,3 @@ abstract class IHotkeySet {
 
   const IHotkeySet({required this.name});
 }
-
-

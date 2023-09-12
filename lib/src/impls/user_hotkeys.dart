@@ -8,7 +8,8 @@ import 'package:nf_flutter_undo/nf_flutter_undo.dart';
 class UserHotkeys {
   TabHotkeys tabHotkeys = TabHotkeys.webBrowser();
 
-  static KeyAction keyActionFromSingleActivator(SingleActivator activator, ICommand command) {
+  static KeyAction keyActionFromSingleActivator(
+      SingleActivator activator, ICommand command) {
     final ka1 = KeyAction(
       activator.trigger,
       command.commandName,
